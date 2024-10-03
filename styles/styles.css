@@ -1,22 +1,28 @@
+:root {
+    --color1: steelblue;
+    --color2: white;
+    --standard-padding: 10px;
+}
+
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    background-color: var(--color1);
+    padding: var(--standard-padding);
 }
 
 nav a {
-    color: white;
+    color: var(--color2);
     display: block;
-    padding: 20px
+    padding: var(--standard-padding);
 }
 
 h1 {
-    color: steelblue;
+    color: var(--color1);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--color1);
     padding: 2px;
     box-shadow: 0 0 30px;
 }
@@ -30,11 +36,11 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
+    width: 400px;
+    margin: 15px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
+    padding: 15px;
+    background-color: var(--color2);
     color: #333;
 
 }

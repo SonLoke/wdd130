@@ -7,37 +7,61 @@
 :root {
     --color1: steelblue;
     --color2: white;
-    --standard-padding: 10px;
+    --color3: #a9a9a93c;
+    --standard-padding: 1rem;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 nav {
     background-color: var(--color1);
     padding: var(--standard-padding);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: var(--color2);
     display: block;
     padding: var(--standard-padding);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
 h1 {
     color: var(--color1);
+    font-family: sans-serif;
+    padding: 0.5rem;
+    border-bottom: 2px solid;
 }
 
 main {
-    max-width: 840px;
-    p {
-        margin: 10px;
-    }
-    img {
+    grid-column: 2;
+}
+
+main p {
+    margin: 5px;
+}
+
+main img {
     float: right;
     width: 30%;
     height: auto;
     border: 1px solid var(--color1);
+    margin: 0.5rem;
     padding: 2px;
-    box-shadow: 0 0 30px;
-    }
+    box-shadow: 0 0 10px;
 }
 
 p {
@@ -48,19 +72,20 @@ aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1;
+    grid-row: 1;
+}
 
-    img {
+aside img {
         width: 250px;
         height: auto;
     }
 
-    h2 {
-       position: absolute;
-       font-size: smaller;
-       top: 25px;
-       left: 180px;
-    }
-
+aside h2 {
+   position: absolute;
+   font-size: smaller;
+   top: 25px;
+   left: 180px;
 }
 
 footer {
@@ -75,5 +100,5 @@ footer {
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     color: #000;
-    background-color: var(--color2);
+    background-color: var(--color3);
 }

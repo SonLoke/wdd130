@@ -1,10 +1,103 @@
 :root {
-    --primary-color: #447604ff; /*Avocado*/
-    --sencodary-color: #6cc551ff; /*mantis*/
-    --accent-color1: #9ffcdfff; /*aquamarine*/
-    --accent-color2: #52ad9cff; /*keppel*/
-    --accent-color3: #47624fff; /*feldgrau*/
-
-/* Alternate Palette: Rivendell Calling 
-#f1eaa8, #bebb5c, #6a7120, #643f1e, #2f2308 */
+    --primary-color: #f1eaa8cc; /**/
+    --secondary-color: #bebb5c; /**/
+    --accent-color1: #4c5116; /**/
+    --accent-color2: #c46604; /**/
+    --accent-color3: #2f2308; /**/
 }
+
+ body {
+    font-family: "Fira Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--secondary-color);
+
+    div, section, footer {
+        background-color: var(--primary-color);
+        border: 3px solid var(--accent-color2);
+        margin: 5px;
+        text-align: center;
+        color: var(--accent-color1);
+    }
+
+    footer {
+        background-color: var(--accent-color1);
+        margin: 0px;
+
+        p {
+            display: inline;
+            position: relative;
+            bottom: 20px;
+            margin: 5px;
+        }
+
+        a {
+            margin: 5px;
+        }
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cinzel", serif;
+}
+
+.hero {
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    article img {
+        position: static;
+        width: 20%;
+    }
+}
+
+header {
+    background-color: var(--accent-color1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 35%;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+    margin: 10px;
+}
+
+nav {
+    /* display: flex; */
+    /* flex-direction: row; */
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+header a {
+    border: 3px solid var(--accent-color2);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    color: var(--accent-color1);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Img_smp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+section img {
+    width: 25%;
+    height: auto;
+    }

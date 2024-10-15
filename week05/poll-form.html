@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD130 | Lucas Caldas da Costa| HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label>Full Name<input type="text" id="fullname" name="fullname"></label>
+
+                <label>Email<input type="email" id="useremail" name="useremail"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <label>What is your favorite browser?
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+
+                <label>Do you have a household pet?<input type="checkbox" id="pet" name="pet"></label>
+
+                <label>List the places you have lived<textarea id="feedback" name="feedback" rows="4" placeholder="Fiji, Rio de Janeiro, Azores, Sicili"></textarea></label>
+            </fieldset>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy | HTML Form - User Poll Activity | Lucas Caldas da Costa</p>
+    </footer>
+</body>
+</html>

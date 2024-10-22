@@ -135,6 +135,10 @@ section img {
     width: fit-content;
 }
 
+.emb_map iframe {
+    border:0;
+}
+
 .message_us {
     display: flex;
     flex-direction: column;
@@ -148,7 +152,7 @@ section img {
     margin-left: 2%;
 }
 
-input {
+input, textarea {
     border-radius: .5rem;
     height: 1.5rem;
 }
@@ -167,4 +171,15 @@ button:hover {
     cursor: pointer;
     background-color: #4c5116;
     color: #bebb5c;
+}
+
+#send_message {
+    background-color: var(--primary-color);
+    margin: 2%;
+}
+
+#send_message:hover {
+    cursor: pointer;
+    background-color: var(--accent-color1);
+    color: var(--secondary-color);
 }

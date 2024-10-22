@@ -93,6 +93,7 @@ header a {
     color: var(--accent-color1);
     text-decoration: none;
     font-weight: bold;
+    border-radius: .5rem;
 }
 
 .Img_smp {
@@ -176,6 +177,8 @@ button:hover {
 #send_message {
     background-color: var(--primary-color);
     margin: 2%;
+    border-radius: .5rem;
+    font-weight: bold;
 }
 
 #send_message:hover {
@@ -188,8 +191,4 @@ button:hover {
     display: flex;
     flex-direction: column;
     /* text-align: center; */
-}
-
-#nl_type {
-    display: inline-block;
 }

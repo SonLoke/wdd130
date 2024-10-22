@@ -6,6 +6,10 @@
     --accent-color3: #2f2308; /**/
 }
 
+* {
+    box-sizing: border-box;
+}
+
  body {
     font-family: "Fira Sans", sans-serif;
     margin: 0px;
@@ -42,11 +46,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Cinzel", serif;
 }
 
-.hero {
+div, section {
     position: relative;
 }
 
-div img {
+.background {
     position: absolute;
     top: 0;
     left: 0;
@@ -103,3 +107,64 @@ section img {
     width: 25%;
     height: auto;
     }
+
+.our_team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.employee_img {
+    width: 150px;
+    border-radius: 100%;
+}
+
+#map-message {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+}
+
+.msg_container {
+    width: 30%;
+    background-color:#bebb5c;
+}
+
+.emb_map {
+    width: fit-content;
+}
+
+.message_us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+#newsletter {
+    margin-left: 2%;
+}
+
+input {
+    border-radius: .5rem;
+    height: 1.5rem;
+}
+
+button {
+    border-radius: 0.5rem;
+    margin: 2%;
+    border: 3px solid var(--accent-color2);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    color: var(--accent-color1);
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #4c5116;
+    color: #bebb5c;
+}

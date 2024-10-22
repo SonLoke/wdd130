@@ -43,26 +43,22 @@
             <aside class="our_team">
                 <figure>
                     <img class="employee_img" src="images/employee_ 1.webp" alt="Employee #1">
-                    <figcaption>Ororo Monroe</figcaption>
-                    <figcaption>General Manager</figcaption>
+                    <figcaption>Ororo Monroe</br>General Manager</figcaption>
                 </figure>
 
                 <figure>
                     <img class="employee_img" src="images/employee_2.webp" alt="Employee #2">
-                    <figcaption>Richard "Reed" Richards</figcaption>
-                    <figcaption>CEO</figcaption>
+                    <figcaption>Richard "Reed" Richards</br>CEO</figcaption>
                 </figure>
 
                 <figure>
                     <img class="employee_img" src="images/employee_ 3.webp" alt="Employee #3">
-                    <figcaption>Monica Rambeau</figcaption>
-                    <figcaption>Safety Supervisor & Rafting Specialist</figcaption>
+                    <figcaption>Monica Rambeau</br>Safety Supervisor & Rafting Specialist</figcaption>
                 </figure>
 
                 <figure>
                     <img class="employee_img" src="images/employee_ 4.webp" alt="Employee #4">
-                    <figcaption>Natasha Romanova</figcaption>
-                    <figcaption>Marketing Manager</figcaption>
+                    <figcaption>Natasha Romanova</br>Marketing Manager</figcaption>
                 </figure>
             </aside>
         </section>
@@ -84,12 +80,18 @@
                         <input type="text" name="address" id="address">
                         
                         <label for="phone_n">Phone Number</label>
-                        <input type="phone" name="phone_n" id="phone_n">
+                        <input type="tel" name="phone_n" id="phone_n">
 
                         <label for="message">Your Message</label>
-                        <textarea name="me ssage" id="message"></textarea>
+                        <textarea name="message" id="message"></textarea>
                         
                         <label for="newsletter">Want to receive Our Newsletter?<input type="checkbox" name="newsletter" id="newsletter"></label>
+
+                        <label for="nl_type" class="radio_nl_type">Newsletter type</label>
+                            <label>Email<input type="radio" name="nl_type" id="nl_type" value="1"></label>
+                            <label>MSM<input type="radio" name="nl_type" id="nl_type" value="2"></label>
+                            <label>Both <input type="radio" name="nl_type" id="nl_type" value="3"></label>
+                        
 
                         <input type="submit" name="send_message" id="send_message">
                     </form>

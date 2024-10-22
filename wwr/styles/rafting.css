@@ -152,7 +152,7 @@ section img {
     margin-left: 2%;
 }
 
-input, textarea {
+#your_name, #email, #address, #phone_n, textarea {
     border-radius: .5rem;
     height: 1.5rem;
 }
@@ -182,4 +182,14 @@ button:hover {
     cursor: pointer;
     background-color: var(--accent-color1);
     color: var(--secondary-color);
+}
+
+.radio_nl_type {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+#nl_type {
+    display: inline-block;
 }

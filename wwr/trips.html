@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="whitewater rafting website page with contact information of the company">
+    <meta name="description" content="whitewater rafting website page with service information">
     <meta name="author" content="Lucas Caldas da Costa">
 
     <!-- Heading & Text Font -->
@@ -14,7 +14,7 @@
     <!-- Stylesheet -->
      <link rel="stylesheet" href="styles/rafting.css">
 
-    <title>Contact Us | White Water Rafting</title>
+    <title>Trips | White Water Rafting</title>
 </head>
 <body>
     <header>
@@ -27,86 +27,103 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img class="background" src="images/wwr_1.jpg" alt="background image">
-            <h1>Contact Us</h1> <!-- company info -->
-            <article>
+        <div class="hero_container">
+            <img class="hero" src="images/wwr_1.jpg" alt="Happy Rafting Group">
+
+            <div class="hero_msg_box">
+                <h1>Valfenda Rafting</h1>
+            </div>
+            <!-- <article>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptate ullam est reprehenderit facilis voluptatibus soluta consectetur! Atque molestiae distinctio aut minus, eligendi adipisci porro aliquid enim blanditiis, esse consectetur minima, quibusdam error? Aut esse, eligendi distinctio neque porro quasi.</p>
                 <button>Message Us NOW!</button>
-            </article>
+            </article> -->
         </div>
         <section>
-            <h2>Our Team</h2> <!-- employee profile images -->
+            <h2></h2> <!-- employee profile images -->
 
             <img class="background" src="images/wwr_2.jpg" alt="background image">
 
-            <aside class="our_team">
-                <figure>
-                    <img class="employee_img" src="images/employee_ 1.webp" alt="Employee #1">
-                    <figcaption>Ororo Monroe</br>General Manager</figcaption>
-                </figure>
-
-                <figure>
-                    <img class="employee_img" src="images/employee_2.webp" alt="Employee #2">
-                    <figcaption>Richard "Reed" Richards</br>CEO</figcaption>
-                </figure>
-
-                <figure>
-                    <img class="employee_img" src="images/employee_ 3.webp" alt="Employee #3">
-                    <figcaption>Monica Rambeau</br>Safety Supervisor & Rafting Specialist</figcaption>
-                </figure>
-
-                <figure>
-                    <img class="employee_img" src="images/employee_ 4.webp" alt="Employee #4">
-                    <figcaption>Natasha Romanova</br>Marketing Manager</figcaption>
-                </figure>
+            <aside id="map-message">
+                <section class="table_container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fridays</th>
+                                <th>Saturdays</th>
+                                <th>Holidays</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr> <!-- table row 1-->
+                                <td>10:00 AM - 12:00 AM</td>
+                                <td>08:00 AM - 10:00 AM</td>
+                                <td>10:00 AM - 12:00 AM</td>
+                            </tr>
+                            <tr> <!-- table row 2-->
+                                <td>11:00 AM - 13:00 AM</td>
+                                <td>09:00 AM - 11:00 AM</td>
+                                <td>11:00 AM - 13:00 AM</td>
+                            </tr>
+                            <tr> <!-- table row 3-->
+                                <td>15:00 AM - 17:00 AM</td>
+                                <td>10:00 AM - 12:00 AM</td>
+                                <td>12:00 AM - 14:00 AM</td>
+                            </tr>
+                            <tr> <!-- table row 4-->
+                                <td>---</td>
+                                <td>11:00 AM - 13:00 AM</td>
+                                <td>13:00 AM - 15:00 AM</td>
+                            </tr>
+                            <tr> <!-- table row 5-->
+                                <td>---</td>
+                                <td>14:00 AM - 16:00 AM</td>
+                                <td>14:00 AM - 16:00 AM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <div class="action_call">
+                    <img src="images/wwr_4.jpg" alt="white water rafting 4">
+                    <button><a href="contact.html">Contact Us NOW!</a></button>
+                </div>
             </aside>
+
         </section>
         <section>
-            <h2>Leave a Message!</h2> <!-- HTML Form -->
+            <h2></h2> <!-- HTML Form -->
 
             <img class="background" src="images/wwr_3.jpg" alt="background image">
 
-            <aside id="map-message">
-                <div class="msg_container">
-                    <form class="message_us">
-                        <label for="your_name">Your Name</label>
-                        <input type="text"  name="your_name" id="your_name">
-                        
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email">
-                        
-                        <label for="address">Your Address</label>
-                        <input type="text" name="address" id="address">
-                        
-                        <label for="phone_n">Phone Number</label>
-                        <input type="tel" name="phone_n" id="phone_n">
+            <div class="grid_layout_home">
+                <img class="column1 row1 grid_img" src="images/wwr_5.jpg" alt="white water rafting 5">
 
-                        <label for="message">Your Message</label>
-                        <textarea name="message" id="message"></textarea>
-                        
-                        <label for="newsletter">Want to receive Our Newsletter?<input type="checkbox" name="newsletter" id="newsletter"></label>
+                <img class="column2 row2 grid_img" src="images/wwr_6.jpg" alt="white water rafting 6">
 
-                        <label for="nl_type" class="radio_nl_type">Newsletter type</label>
-                            <label>Email<input type="radio" name="nl_type" id="nl_type" value="1"></label>
-                            <label>MSM<input type="radio" name="nl_type" id="nl_type" value="2"></label>
-                            <label>Both <input type="radio" name="nl_type" id="nl_type" value="3"></label>
-                        
+                <img class="column1 row3 grid_img" src="images/wwr_2.jpg" alt="white water rafting 5">
 
-                        <input type="submit" name="send_message" id="send_message">
-                    </form>
-                </div>
-                <div class="emb_map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31671.955858892434!2d24.70213573623541!3d60.25523422484547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc796210691%3A0xcd4ebd843be2f763!2sHelsinque%2C%20Finl%C3%A2ndia!5e0!3m2!1spt-BR!2scz!4v1729527188522!5m2!1spt-BR!2scz" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                <section class="column2 row1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eos ex, dolorem impedit consequatur excepturi molestiae dolorum, placeat modi incidunt est repudiandae velit omnis quod quisquam facilis? Ad accusantium deserunt sint reiciendis optio debitis possimus, quisquam ipsam voluptas non excepturi, ullam aperiam quasi harum ex provident fugiat qui, nihil veritatis.</p>
+                </section>
+
+                <section class="column1 row2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eos ex, dolorem impedit consequatur excepturi molestiae dolorum, placeat modi incidunt est repudiandae velit omnis quod quisquam facilis? Ad accusantium deserunt sint reiciendis optio debitis possimus, quisquam ipsam voluptas non excepturi, ullam aperiam quasi harum ex provident fugiat qui, nihil veritatis.</p>
+                </section>
+
+                <section class="column2 row3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eos ex, dolorem impedit consequatur excepturi molestiae dolorum, placeat modi incidunt est repudiandae velit omnis quod quisquam facilis? Ad accusantium deserunt sint reiciendis optio debitis possimus, quisquam ipsam voluptas non excepturi, ullam aperiam quasi harum ex provident fugiat qui, nihil veritatis.</p>
+                </section>
+            </div>
+
             </aside>
         </section>
-    </main>
+    </main> 
     <footer>
         <p>&copy;2024 Valfenda Rafting | Lucas Caldas da Costa</p>
-        <a href=""><img src="images/icons8-twitterx.svg" alt="x icon"></a>
-        <a href=""><img src="images/icons8-facebook.svg" alt="fb icon"></a>
-        <a href=""><img src="images/icons8-instagram.svg" alt="insta icon"></a>
+        <div>
+            <a href=""><img src="images/icons8-twitterx.svg" alt="x icon"></a>
+            <a href=""><img src="images/icons8-facebook.svg" alt="fb icon"></a>
+            <a href=""><img src="images/icons8-instagram.svg" alt="insta icon"></a>
+        </div>
     </footer>
 </body>
 </html>

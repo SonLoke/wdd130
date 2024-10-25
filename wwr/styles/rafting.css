@@ -1,10 +1,11 @@
 :root {
     --primary-color: #f1eaa8cc; /**/
     --secondary-color: #bebb5c; /**/
-    --accent-color1: #4c5116; /**/
+    --accent-color1: #23410c; /**/
     --accent-color2: #c46604; /**/
     --accent-color3: #2f2308; /**/
     --standard-b-r: .5rem;
+    /* --text-color: #white ; */
 }
 
 * {
@@ -316,4 +317,19 @@ th {
 
 footer button {
     align-items: center;
+}
+
+.advn {
+    /* display: flex; */
+    flex-direction: row;
+
+    section {
+        position: absolute;
+        width: 30%;
+        margin-left: 1rem;
+    }
+
+    .p2 {
+        right: 1rem;
+    }
 }

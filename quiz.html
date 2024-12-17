@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas C. da Costa">
+    <meta name="description" content="This is a suvey form made to resemble a quiz abouth HTML and CSS as a test of web developing skills.">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>Basic HTML & CSS Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Basic HTML & CSS Quiz</h1>
+    </header>
+
+    <form class="quiz">
+        <div class="question">  
+            <label><span>1.</span>What does HTML stand for?<input type="text" id="q1" name="q1"></label>
+        </div>
+
+        <div class="question">
+            <label><span>2.</span>Write down four HTML tags and a single use for each of them.<textarea id="q2" name="q2"></textarea></label>
+        </div>
+
+        <div class="question">
+            <label><span>3.</span>Which HTML tag is used to create a hyperlink?
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value= "link">link</option>
+                    <option value="a">a</option>
+                    <option value="href">href</option>
+                    <option value="url">url</option>
+                </select>
+            </label> 
+        </div>
+            
+        <div class="question">
+            <label><span>4.</span>How many elements can the 'id' attribute call back to?<input type="number" id="q4" name="q4"></label>
+        </div>
+
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>
